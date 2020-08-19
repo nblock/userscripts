@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Handysignatur: Skip TAN App advertisement
-// @description Automatically skip the advertisement for the TAN App which is show on each login.
+// @description Automatically skip the advertisement for the TAN App which is shown on each login.
 // @namespace   https://nblock.org
 // @match       https://www.handy-signatur.at/mobile/https-security-layer-request/*
 // @grant       none
