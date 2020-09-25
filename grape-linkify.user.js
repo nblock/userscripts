@@ -2,13 +2,13 @@
 // @name        Grape: Linkify
 // @description Add backlinks to service integrations such as from Grape to Jira
 // @namespace   https://nblock.org
-// @match       https://uebergrape.staging.chatgrape.com/chat/channel/*
+// @match       https://uebergrape.staging.chatgrape.com/chat/*
 // @grant       none
 // @run-at      document-idle
 // @downloadURL https://raw.githubusercontent.com/nblock/userscripts/master/grape-linkify.user.js
 // @updateURL   https://raw.githubusercontent.com/nblock/userscripts/master/grape-linkify.user.js
 // @author      nblock <site-github@nblock.org>
-// @version     0.1
+// @version     0.2
 // ==/UserScript==
 
 var jira_regex = /(^[A-Z]+-[0-9]+) .*/;
