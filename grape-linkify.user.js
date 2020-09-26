@@ -18,7 +18,7 @@ linkify_jira = function(mutation) {
   var title = document.querySelector('main > div:first-child h1');
   var mo = jira_regex.exec(title.innerHTML);
   if (Array.isArray(mo) && mo.length > 1) {
-    title.innerHTML = '<a href="' + jira_url + mo[1] + '">' + mo[0] + '</a>';
+    title.innerHTML = '<a href="' + jira_url + mo[1] + '" target="_blank" rel="noopener noreferrer">' + mo[0] + '</a>';
   }
 }
 
