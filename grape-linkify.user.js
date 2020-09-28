@@ -8,7 +8,7 @@
 // @downloadURL https://raw.githubusercontent.com/nblock/userscripts/master/grape-linkify.user.js
 // @updateURL   https://raw.githubusercontent.com/nblock/userscripts/master/grape-linkify.user.js
 // @author      nblock <site-github@nblock.org>
-// @version     0.2
+// @version     0.3
 // ==/UserScript==
 
 var jira_regex = /(^[A-Z]+-[0-9]+) .*/;
